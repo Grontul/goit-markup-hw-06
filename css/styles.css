@@ -388,7 +388,8 @@ p {
 }
 
 .form-field-checkbox {
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 .form-checkbox {
@@ -403,6 +404,7 @@ p {
 
 .form-checkbox-icon {
   position: absolute;
+  margin-left: 12px;
   width: 16px;
   height: 15px;
   display: flex;
